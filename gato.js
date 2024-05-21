@@ -20,12 +20,12 @@ function userMove(e) {
     CheckLine(0,4,8);
     CheckLine(6,4,2);
  }
- sadf()
+  maquina()
 }
 
 function CheckLine(c1,c2,c3) {
     console.log("llega");
-    console.log(cells[c1].innerHTML);
+    console.log(cells[c1].innerHTML);                                                        //el innerhtml lo que hace es que me duvuelve o me tira(o me establece la sintaxis del html) lo que hay en el html
     console.log(cells[c2].innerHTML);
     console.log(cells[c3].innerHTML);
     if (cells[c1].innerHTML != "" && cells[c1].innerHTML === cells[c2].innerHTML &&cells[c2].innerHTML === cells[c3].innerHTML) {
@@ -39,11 +39,14 @@ function showWinner(player1) {
 
 // esto es para que la maquina mueva o marque por ella misma//
 function maquina() {
-    let moverse =Math.floor(Math.random() * 9);
-    cells[moverse].innerHTML='O'
-    console.log(moverse)
-if () {
+    let moverse =Math.floor(Math.random() * 8);
     
+    console.log(cells)
+    cells[moverse].innerHTML='O'
+    
+
+    //aqui lo  que voy hacer es que si esta vacio puede marcar y si esta ocupado no puede mmarcar
+if (88) {
 }
 }
 
