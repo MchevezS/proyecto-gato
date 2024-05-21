@@ -39,16 +39,42 @@ function showWinner(player1) {
 
 // esto es para que la maquina mueva o marque por ella misma//
 function maquina() {
-    let moverse =Math.floor(Math.random() * 8);
-    
-    console.log(cells)
-    cells[moverse].innerHTML='O'
-    
+    //    for (let index = 0; index < cells.length; index++) {
+        //        cells[index].addEventListener('click',()=> {
+            //            if (moverse[inndex].textContent === '') {
+                // moverse[index].innerHTML = "X";
+                //               console.log(moverse[index].textContent);
+                
+                
+                //         }
+                //     });
+                
+                
+                // }
+                //aqui lo  que voy hacer es que si esta vacio puede marcar y si esta ocupado no puede mmarcar
+                //                 let bombillo=true
+                // while (bombillo==true) {
+                    
+                    //     let moverse =Math.floor(Math.random() * 9);
+                    //     if (cells[moverse].innerHTML=='') {
+//         console.log(cells)
+//         cells[moverse].innerHTML='O'    
+//         bombillo=falso 
+//     }
+// }
 
-    //aqui lo  que voy hacer es que si esta vacio puede marcar y si esta ocupado no puede mmarcar
-if (88) {
 }
-}
+  const moverse= document.querySelectorAll('.cells');
+  const jugadormaquina= 'X';
+  for (let index = 0; index < .length; index++) {
+   
+    
+  }             
+                
+                
+                
+                
+
 
 
 
