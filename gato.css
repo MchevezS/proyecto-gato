@@ -1,7 +1,29 @@
-.tic { font-size: 70px;
+.btnjugar{
+    position: relative;
+    left: 350px;
+    color: wheat;
+    background-color: black;
+}
+.tic { font-size: 80px;
 position: relative;
-left: -200px;
-font-style: ;
+left: -210px;
+font-style: normal;
+font-weight: 700;
+color: rgb(165, 253, 223);
+}
+.tac {
+    font-size: 80px;
+    position: relative;
+    left: -100px;
+    font-style: normal;
+    font-weight: 700;
+    color: rgb(244, 180, 245);
+}
+.toe {
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 700;
+    color: bisque;
 }
 h1 {
     position: relative;
@@ -13,7 +35,7 @@ body {
 font-size: 50px;
 width:100vw;
 height: 100vh;
-background-color: rgb(218, 152, 152);
+background-color: rgb(238, 167, 167);
 color: #211d1d;
  font-family: 'Courier New', Courier, monospace;
 margin: 0;
