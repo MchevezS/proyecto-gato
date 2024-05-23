@@ -1,7 +1,8 @@
-*{
-    color: red;
+.tic { font-size: 70px;
+position: relative;
+left: -200px;
+font-style: ;
 }
-
 h1 {
     position: relative;
     left: 44px;
@@ -10,7 +11,6 @@ h1 {
 }
 body {
 font-size: 50px;
-font-style: oblique;
 width:100vw;
 height: 100vh;
 background-color: rgb(218, 152, 152);

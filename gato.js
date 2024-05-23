@@ -31,12 +31,12 @@ function userMove(e) {
 function CheckLine(c1, c2, c3) {
     if (cells[c1].innerHTML != "" && cells[c1].innerHTML === cells[c2].innerHTML && cells[c2].innerHTML === cells[c3].innerHTML) {
         ganadorFigura = cells[c1].innerHTML;
-        showWinner(cells[c1].innerHTML);
+        Winner(cells[c1].innerHTML);
         ganoYa = true;
     }
 }
 
-function showWinner(player1) {
+function Winner(player1) {
     if (document.querySelector('#Resultado').innerHTML = player1 + '  has ganado ') {
         alert(document.querySelector('#Resultado').innerHTML = ganadorFigura + '  felicidades has ganado 🥳🥳 ');
     }
