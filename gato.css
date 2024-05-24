@@ -9,6 +9,9 @@
     margin-top: -100px;
 
 }
+.btnjugar :hover{
+    background-color: rgb(182, 177, 233);
+}
 .titulo{
     margin-top: 125px;
 }
@@ -101,6 +104,9 @@ font-size: 20px;
     left: 150px; 
     margin-top: -300px;
     
+}
+.game :hover{
+    background-color: rgb(108, 239, 163);
 }
 
 .Resultado {
