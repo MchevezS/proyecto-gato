@@ -32,3 +32,9 @@ body{
     color: tan;
     border-radius: 900px;
 }
+
+.audio1{
+    position: relative;
+    left: 850px;
+    margin-top: 125px;
+}

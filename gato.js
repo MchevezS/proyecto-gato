@@ -38,14 +38,14 @@ function CheckLine(c1, c2, c3) {
 
 function Winner(player1) {
     if (document.querySelector('#Resultado').innerHTML = player1 + '  has ganado ') {
-        alert(document.querySelector('#Resultado').innerHTML = ganadorFigura + '  felicidades has ganado 🥳🥳 ');
+        alert(document.querySelector('#Resultado').innerHTML = ganadorFigura + '  felicidades has ganado 🥳🥳😎 ');
     }
 }
 
 function empate() {
     let vacios = Array.from(cells).filter(estaVacio => estaVacio.innerHTML === "");
     if (vacios.length === 0 && !ganoYa) {
-        alert("Empate");
+        alert("Empate 😅");
         return true;
     }
     return false;

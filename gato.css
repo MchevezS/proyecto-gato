@@ -38,24 +38,24 @@ color: rgb(165, 253, 223);
 
 .x{
     width: 1.5em;
-    height: 1em;
-    background-color: rgb(2, 2, 2);
+    height: 1.5em;
+    background-color: rgb(114, 221, 243);
     display:inline-flex;
     align-items: center;
     
 }
 .o {
     width: 1.5em;
-    height: 1em;
-    background-color: rgb(2, 2, 2);
+    height: 1.5em;
+    background-color: rgb(114, 221, 243);
     display:inline-flex;
     align-items: center;
 }
 .oyx{
-    margin-top: -285px;
+    margin-top: -320px;
     position: relative;
     left: 145px;
-
+    font-size: 15px;
 }
 h1 {
     position: relative;
@@ -109,3 +109,7 @@ font-size: 20px;
     height: 1rem;
 }
 
+.audio{
+    position: relative;
+    left: -270px;
+}
