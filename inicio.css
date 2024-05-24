@@ -1,7 +1,7 @@
 body{
-    background-image: url('/images/fondo\ juego.jpg');
+    background-image: url('images/game.jpg');
     background-repeat: no-repeat;
-    background-size: 2000px 1000px;
+    background-size: 1200px 600px;
 
     position: fixed;
     z-index: -100;
@@ -11,5 +11,24 @@ body{
     width: 100%;
 }
 .titulo{
-    color: brown;
+    color: rgb(211, 38, 133);
+    font-size: 40px;
+    font-weight: 700;
+ position: relative;
+ left: 350px;
+}
+.titulocont {
+    color:rgb(211, 38, 133) ;
+    font-size:30px ;
+    font-weight: 700;
+    position: relative;
+    left: 390px;
+}
+.btncomenzar {
+    margin-top: 300px;
+    position: relative;
+    left: 500px;
+    background-color: rgb(222, 229, 230);
+    color: tan;
+    border-radius: 900px;
 }

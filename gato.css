@@ -2,7 +2,12 @@
     position: relative;
     left: 350px;
     color: wheat;
-    background-color: black;
+    background-color: rgb(172, 190, 237);
+    box-shadow: 10px 10px 10px 10px;
+    border-radius: 30px;
+    border-color: blanchedalmond;
+    margin-top: -100px;
+
 }
 .tic { font-size: 80px;
 position: relative;
@@ -54,16 +59,20 @@ font-size: 20px;
     place-items: center;
     border: 1px solid rgb(0, 0, 0);
     float: left;
-    
+    /* position: relative;
+    left: 50px;     */
 }
 
 .game {
-    width: 276px;
+    width: 275px;
     text-align: center;
     background-color: rgb(34, 34, 26);
-    opacity: 0.66;
+    opacity: 0.76;
     background-image: url(images/juegofondo2.png);
     background-position: 1550px;
+    position: relative;
+    left: -10px; 
+     
 }
 
 .Resultado {
