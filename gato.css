@@ -4,14 +4,17 @@
     color: wheat;
     background-color: rgb(172, 190, 237);
     box-shadow: 10px 10px 10px 10px;
-    border-radius: 30px;
+    border-radius: 20px;
     border-color: blanchedalmond;
     margin-top: -100px;
 
 }
+.titulo{
+    margin-top: 125px;
+}
 .tic { font-size: 80px;
 position: relative;
-left: -210px;
+left: -400px;
 font-style: normal;
 font-weight: 700;
 color: rgb(165, 253, 223);
@@ -19,7 +22,7 @@ color: rgb(165, 253, 223);
 .tac {
     font-size: 80px;
     position: relative;
-    left: -100px;
+    left: -300px;
     font-style: normal;
     font-weight: 700;
     color: rgb(244, 180, 245);
@@ -29,6 +32,30 @@ color: rgb(165, 253, 223);
     font-style: normal;
     font-weight: 700;
     color: bisque;
+    position: relative;
+    left: -350px;
+}
+
+.x{
+    width: 1.5em;
+    height: 1em;
+    background-color: rgb(2, 2, 2);
+    display:inline-flex;
+    align-items: center;
+    
+}
+.o {
+    width: 1.5em;
+    height: 1em;
+    background-color: rgb(2, 2, 2);
+    display:inline-flex;
+    align-items: center;
+}
+.oyx{
+    margin-top: -285px;
+    position: relative;
+    left: 145px;
+
 }
 h1 {
     position: relative;
@@ -71,8 +98,9 @@ font-size: 20px;
     background-image: url(images/juegofondo2.png);
     background-position: 1550px;
     position: relative;
-    left: -10px; 
-     
+    left: 150px; 
+    margin-top: -300px;
+    
 }
 
 .Resultado {
